@@ -88,3 +88,61 @@
         />
 
     ````
+## For left, right, top and bottom possition
+
+    ***for left - toLeftOf***
+    ***for right - toRightOf***
+    ***for top - above***
+    ***for bottom - below***
+
+    ````
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:text="btn1"
+        android:textSize="25sp"
+        android:backgroundTint="#00ff00"
+        android:textColor="#f00"
+
+/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:text="btn2"
+        android:textSize="25sp"
+        android:backgroundTint="#00ff00"
+        android:textColor="#f00"
+        android:layout_below="@+id/btn1"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn3"
+        android:text="btn3"
+        android:textSize="25sp"
+        android:backgroundTint="#00ff00"
+        android:textColor="#f00"
+        android:layout_below="@id/btn2"
+        android:layout_toRightOf="@+id/btn2"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn4"
+        android:text="btn4"
+        android:textSize="25sp"
+        android:backgroundTint="#00ff00"
+        android:textColor="#f00"
+        android:layout_toRightOf="@id/btn3"
+        android:layout_above="@+id/btn3"
+
+        />
+
+    ````
