@@ -1,7 +1,7 @@
 
 ### Button Alignment on different positons
 
-````
+````js
 
 <Button
         android:layout_width="wrap_content"
@@ -86,8 +86,7 @@
         android:layout_centerInParent="true"
 
         />
-
-    ````
+````
 ## For left, right, top and bottom possition
 
     ***for left - toLeftOf***
@@ -95,7 +94,7 @@
     ***for top - above***
     ***for bottom - below***
 
-    ````
+    ````js
         <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
