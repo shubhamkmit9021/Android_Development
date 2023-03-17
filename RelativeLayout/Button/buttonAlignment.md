@@ -87,9 +87,13 @@
 />
 ````
 
-### For Left, Right, Top, Bottom alignment
-
-    **for left**
+### For Left, Right, Top and Bottom alignment
+````
+### For Top - above
+### For Bottom - below
+### For Left - toLeftOf
+### For Right - toRightOf
+````
 
 ````
 <Button
