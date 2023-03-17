@@ -86,14 +86,10 @@
 
 />
 
+### For Left, Right, Top, Bottom alignment
 
-## For left, right, top and bottom possition
-
-    **for left - toLeftOf**
-    **for right - toRightOf**
-    **for top - above**
-    **for bottom - below**
-
+    **for left**
+    
 `
 <Button
     android:layout_width="wrap_content"
