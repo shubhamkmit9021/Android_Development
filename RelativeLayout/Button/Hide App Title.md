@@ -22,11 +22,22 @@
 protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.your_layout);
-
+        **But this will not hide the title area this will hide only title text**
     if (getSupportActionBar() != null) {
         getSupportActionBar().setDisplayShowTitleEnabled(false);
     }
 }
+```
+
+**In Short** 
+**this will work simply hide the all title bar and its space also**
+```
+ @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
+    }
 ```
 
 ***For Activity:***
