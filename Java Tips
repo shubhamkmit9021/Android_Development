@@ -1,0 +1,10 @@
+# Java tips
+
+````
+finish(): This method finishes the current activity, effectively closing the app if this is the main activity.
+
+onBackPressed(): If your activity is part of a stack and has a parent activity, calling onBackPressed() simulates pressing the device's back button, which could navigate back to the previous activity.
+
+Choose the option that fits your application's navigation flow. If the splash screen is your main activity, finish() might be more appropriate. If the splash screen is part of a navigation flow, and you want to go back to the previous screen, you can use onBackPressed().
+
+````
